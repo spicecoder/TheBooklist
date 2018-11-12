@@ -1,7 +1,7 @@
 # TheBooklist
 a simple example of integrating spring boot  Rest service and Vue with a web MVC 
 
-The project can be run from the root directory by simply 'mvn jetty:run'.
+The project can be run from the root directory by simply 'mvn jetty:run'. The site will be live at http://localhost:8080
 
 
 
