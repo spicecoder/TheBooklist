@@ -1,7 +1,7 @@
-/Users/pronabpal/Beautiful_Rest/Releaser/booklist/eclipse_back/src/main/java/io/pronab/booklist/back/BooklistBackendApp.java
-/Users/pronabpal/Beautiful_Rest/Releaser/booklist/eclipse_back/src/main/java/io/pronab/booklist/back/model/Person.java
-/Users/pronabpal/Beautiful_Rest/Releaser/booklist/eclipse_back/src/main/java/io/pronab/booklist/back/repo/BookRepository.java
-/Users/pronabpal/Beautiful_Rest/Releaser/booklist/eclipse_back/src/main/java/io/pronab/booklist/back/controller/PersonController.java
-/Users/pronabpal/Beautiful_Rest/Releaser/booklist/eclipse_back/src/main/java/io/pronab/booklist/back/repo/PersonRepository.java
-/Users/pronabpal/Beautiful_Rest/Releaser/booklist/eclipse_back/src/main/java/io/pronab/booklist/back/model/Book.java
-/Users/pronabpal/Beautiful_Rest/Releaser/booklist/eclipse_back/src/main/java/io/pronab/booklist/back/controller/BookController.java
+/Users/pronabpal/Beautiful_Rest/Releaser/TheBooklist/eclipse_back/src/main/java/io/pronab/booklist/back/repo/PersonRepository.java
+/Users/pronabpal/Beautiful_Rest/Releaser/TheBooklist/eclipse_back/src/main/java/io/pronab/booklist/back/model/Person.java
+/Users/pronabpal/Beautiful_Rest/Releaser/TheBooklist/eclipse_back/src/main/java/io/pronab/booklist/back/controller/BookController.java
+/Users/pronabpal/Beautiful_Rest/Releaser/TheBooklist/eclipse_back/src/main/java/io/pronab/booklist/back/controller/PersonController.java
+/Users/pronabpal/Beautiful_Rest/Releaser/TheBooklist/eclipse_back/src/main/java/io/pronab/booklist/back/BooklistBackendApp.java
+/Users/pronabpal/Beautiful_Rest/Releaser/TheBooklist/eclipse_back/src/main/java/io/pronab/booklist/back/repo/BookRepository.java
+/Users/pronabpal/Beautiful_Rest/Releaser/TheBooklist/eclipse_back/src/main/java/io/pronab/booklist/back/model/Book.java

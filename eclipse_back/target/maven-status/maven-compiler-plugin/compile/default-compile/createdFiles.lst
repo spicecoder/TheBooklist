@@ -1,5 +1,5 @@
-io/pronab/booklist/back/model/Book.class
 io/pronab/booklist/back/repo/PersonRepository.class
+io/pronab/booklist/back/model/Book.class
 io/pronab/booklist/back/controller/BookController.class
 io/pronab/booklist/back/model/Person.class
 io/pronab/booklist/back/repo/BookRepository.class

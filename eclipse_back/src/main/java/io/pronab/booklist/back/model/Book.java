@@ -60,7 +60,7 @@ public class Book {
 	public String getAuthor() {
 		return this.author;
 	}
-	public void settAuthor(String author) {
+	public void setAuthor(String author) {
 		this.author = author;
 	}
 
