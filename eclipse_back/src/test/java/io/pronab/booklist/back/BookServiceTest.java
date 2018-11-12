@@ -26,7 +26,7 @@ public class BookServiceTest {
 		repository = mock(BookRepository.class);
 		 
 	}
-	
+	//To do : fix surefire plugin
 	@Test
 	public void findBuddyTest() {
 	    List<Book> books = new ArrayList<Book>();

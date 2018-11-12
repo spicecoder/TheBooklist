@@ -11,7 +11,7 @@ import io.pronab.booklist.back.controller.BookController;
 import io.pronab.booklist.back.model.Book;
 
 public class JUnitControllerTest {
-
+//To do : fix surefire plugin
     @Test
     public void testBookController() {
         BookController bookeController = new BookController();
