@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 	
 	<display-name>REST API</display-name>
-	<description>kick Spring WebMVC REST API</description>
+	<description>Sample Spring WebMVC REST API</description>
 
 	<servlet>
 		<servlet-name>rest</servlet-name>
@@ -17,7 +17,20 @@
 		<url-pattern>/rest/*</url-pattern>
 	</servlet-mapping>
 
-	
+	<servlet>
+		<servlet-name>PlacesProxy</servlet-name>
+		<servlet-class>org.anvard.webmvc.server.PlacesProxyServlet</servlet-class>
+	    <init-param>
+    	  <param-name>GoogleApiKey</param-name>
+    	  <param-value>YOUR_KEY_HERE</param-value>
+	    </init-param>
+		<load-on-startup>1</load-on-startup>
+		<async-supported>true</async-supported>
+	</servlet>
 
+	<servlet-mapping>
+		<servlet-name>PlacesProxy</servlet-name>
+		<url-pattern>/places</url-pattern>
+	</servlet-mapping>
 
 </web-app>

@@ -12,7 +12,7 @@ http://www.springframework.org/schema/mvc http://www.springframework.org/schema/
 http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
 http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd">
 
-    <context:component-scan base-package="io.pronab.webmvc.server"/>
+    <context:component-scan base-package="org.anvard.webmvc.server"/>
     <mvc:annotation-driven/>
 
 </beans>

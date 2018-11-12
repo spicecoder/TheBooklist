@@ -95,7 +95,7 @@
                 <executable>java</executable>
                 <arguments>
                     <argument>-jar</argument>
-                    <argument>target/booklist-eclipse-back-0.0.1-SNAPSHOT.jar</argument>
+                    <argument>eclipse_back/target/booklist-eclipse-back-0.0.1-SNAPSHOT.jar</argument>
                 </arguments>
             </configuration>
         </plugin>
