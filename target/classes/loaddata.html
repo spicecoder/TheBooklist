@@ -1,0 +1,60 @@
+<html>
+   <head>
+      <title>The jQuery Example</title>
+      <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+		
+      
+         <script type = "text/javascript" 
+         src = "https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js">
+         new Vue({
+     el: "#app2",
+     methods: {
+       newHtml() {
+         this.message = '<p style="color:red;">New bold Message</p>';
+       }
+     },
+     data: {
+       message: "<p>Message</p>"
+     }
+   });
+</script>
+
+         <script type = "text/javascript" language = "javascript">
+
+         $(document).ready(function() {
+			
+            $("#driver").click(function(event){
+               $.getJSON('http://localhost:8080/api/customers', function(jd) {
+                  $('#stage').html('^ Name: ' + jd[0].name + '');
+                  $('#stage').append(' ^ Age : ' + jd[0].age+ '');
+                  $('#stage').append('^ Sex: ' + jd[0].active+ '');
+                  $('#stage').toggle()
+               });
+            });
+				
+         });
+      </script>
+   </head>
+	
+   <body>
+      <p>Click on the button to load result.html file:</p>
+		<span>
+      <span id = "stage" style = "background-color:#cc0;">
+         STAGE
+     
+		</span>
+      <input type = "button" id = "driver" value = "Borrowed Books" /> 
+  </span>
+  </div>
+<div id="app2">
+  <span v-html="message"></span>
+  <button v-on:click="newHtml">
+Change HTML
+  </button>
+</div>
+
+
+   </body>
+</html>

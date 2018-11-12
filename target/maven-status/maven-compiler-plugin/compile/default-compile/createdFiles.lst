@@ -1,0 +1,12 @@
+org/anvard/webmvc/server/Calculator.class
+org/anvard/webmvc/googleplaces/PlaceClient.class
+org/anvard/webmvc/api/Calculation.class
+org/anvard/webmvc/googleplaces/Place.class
+org/anvard/webmvc/server/EmbeddedServer.class
+org/anvard/webmvc/googleplaces/PlaceResponse.class
+org/anvard/webmvc/client/RestClient.class
+org/anvard/webmvc/googleplaces/PlaceClient$1.class
+org/anvard/webmvc/server/PlacesProxyServlet.class
+org/anvard/webmvc/googleplaces/Location.class
+org/anvard/webmvc/googleplaces/OpeningHours.class
+org/anvard/webmvc/googleplaces/Geometry.class
